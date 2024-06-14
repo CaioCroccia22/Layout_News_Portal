@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    background-color: gray;
+    border: solid 2px black;
+    border-radius: 5;
+}
+
+
+
+header nav{
+    background-color: grey;
+}
+
+nav{
+    background-color: black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    
+}
+
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#Sports{
+    border: 10px solid green
+}
+#Sports article{
+    display: flex;
+    
+}
