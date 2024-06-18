@@ -117,3 +117,8 @@ img{
 .btn-read:hover {
     background-color: #4A90E2;
 }
+
+h3{
+    text-align: center;
+    padding: 5px;
+}
