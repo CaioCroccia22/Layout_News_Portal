@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: ;
 }
 
 h1{
@@ -39,10 +45,54 @@ nav ul li a{
     color: white;
 }
 
-#Sports{
-    border: 10px solid green
+h2{
+ text-align: center;
 }
-#Sports article{
-    display: flex;
+
+section{
+    border: 10px solid rgb(42, 44, 42);
+    border-radius: 20px;
+    background-color: rgb(228, 215, 215);
+    margin: 10px;
+  
     
+}
+
+.content-article{
+    display: flex;
+    flex-direction: column;
+}
+
+.articles{
+    display: flex;
+}
+
+
+
+
+article{
+    width: 450px;
+    border: solid white 2px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    
+}
+
+article:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+}
+
+img{
+    width: 150px;
+}
+
+.btn-read{
+    border-radius: 30px;
+    width: 150px;
+    padding: 5px;
 }
